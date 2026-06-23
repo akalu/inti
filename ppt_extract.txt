@@ -1,0 +1,864 @@
+﻿Total slides: 87
+
+=== SLIDE 1 ===
+Thinking Autonomous Systems
+Fernando Figueroa
+N·±ez
+del Prado, Ph.D.
+Current Employment: NASA Stennis Space Center, USA
+Autonomous Systems Laboratory
+UTEC
+Universidad de IngenierÝa y TecnologÝa, Lima, Per·
+Global
+Academy
+2025-1
+March 10-22, 2025
+1
+
+=== SLIDE 2 ===
+Brief Personal and Professional Biography
+Paucartambo
+Glorioso Colegio Nacional De
+Ciencias
+del Cusco
+Fernando Figueroa was born in
+Paucartambo
+, Cusco, Per·. He attended primary school in
+Paucartambo
+and secondary school at the Glorioso Colegio Nacional de
+Ciencias
+in Cusco. He received his BS Degree at the University of Hartford, CT, and MS and Ph.D. Degrees at The Pennsylvania State University, PA; all in Mechanical Engineering. He was faculty of Mechanical Engineering at Tulane University (New Orleans) for 10 years, and Associate Chair of Advanced Instrumentation and Control at The University of New Brunswick (Canada) for 2 years. He is at NASA Stennis Space Center since 2000. He has led multiple R&D projects in collaboration with academia, industry, government agencies, and other NASA centers. He has participated in 2 Zero-G flights; and has been the technical assistant to the Chief Engineer, Space Shuttle Systems and Integration, NASA Johnson Space Center. He is currently Subject-Matter-Expert for Autonomous Systems and Operations, working on projects funded by NASAÆs Mars Campaign Office (MCO) - Earth , Space Technology Mission Directorate, and NASA Stennis Space Center. His areas of interest include Autonomous Operations and Systems, Hierarchical-Distributed autonomy, Knowledge-Based Thinking Systems, Integrated System Health Management (ISHM), Intelligent Systems, Intelligent Sensors, Robotics, and Automatic Controls. Fernando Figueroa was awarded the NASA Exceptional Technology Achievement Medal in 2017 for ôExceptional accomplishments in the advancement of autonomous systems in support of ground operations and spaceflight missions.
+Zero-G flight at NASA Johnson Space Center
+Cusco
+
+=== SLIDE 3 ===
+NASA Stennis Space Center Rocket Engine Test Complex
+3
+
+=== SLIDE 4 ===
+NASA Stennis Space Center
+Autonomous Systems Laboratory
+4
+
+=== SLIDE 5 ===
+Videos
+NASA Stennis Space Center
+5
+
+=== SLIDE 6 ===
+6
+Is a Person an Autonomous System?
+How much does a person know to be autonomous?
+What does a person know to be autonomous? Everything?
+Are other beings autonomous? Animals? Plants?
+What are benefits of autonomy?
+Survival?
+Safety?
+Protection from external elements?
+Evolution: learning?
+An AS could be better than a human in some respects (a reality now), but it canÆt think, contemplate, speculate, and make rational decisionsà or can it?
+
+=== SLIDE 7 ===
+Examples of Autonomous Systems
+7
+NASA
+TransHab
+Module Concept
+Autonomous Vehicle
+Can one make anything autonomous?
+
+=== SLIDE 8 ===
+Smart City: Can Autonomy benefit?
+8
+
+=== SLIDE 9 ===
+Autonomy and Automation
+An autonomous system does not need to be automated.
+Automation is the execution resource to carry out tasks defined as a result of autonomy.
+It is conceivable to have an autonomous system that is manually operated.
+An automated system is greatly enhanced by autonomous capability.
+Automated tasks are able to accomplish the objectives with greater robustness, efficiency, reliability.
+9
+Autonomy
+Automated Execution
+Manual Execution
+
+=== SLIDE 10 ===
+Definitions
+Artificial Autonomous Systems (AAS)
+A system that embarks in the execution of a mission by its own means, while applying strategies to deal with unforeseen circumstances that  may interfere in its success.
+This does not mean that an autonomous system is able to ôthink.ö
+In fact autonomous systems today use brute-force methods to achieve autonomy.
+Thinking Artificial Autonomous Systems (TAAS)
+Achieve autonomy by thinking with principles, concepts, and models.
+To Think
+: ôdirect one's
+mind
+toward someone or something; use one's mind actively to form connected ideas.ö (Oxford
+Dictionnary
+)
+"he was thinking about Colinô
+To use the brain to decide to do something
+https://www.merriam-webster.com/dictionary/think
+10
+
+=== SLIDE 11 ===
+Introduction
+Areas that encompass TAS.
+Integrated System Health Management (ISHM).
+Autonomy knowledge (strategies).
+System description/modeling (knowledge domains).
+Concepts of operations for autonomous systems.
+Planning and execution of autonomous operations.
+11
+
+=== SLIDE 12 ===
+TAAS Architectures and Functional Paradigms
+Classic architecture of systems.
+Constellation architecture
+Software architecture
+Hierarchical knowledge management architecture.
+12
+
+=== SLIDE 13 ===
+Classic architecture describing how systems are built
+
+=== SLIDE 14 ===
+Hierarchical Distributed Autonomous Control Architecture
+14
+
+=== SLIDE 15 ===
+Data, Information, and Knowledge Management Architecture for ISHM
+
+=== SLIDE 16 ===
+Autonomous Systems Constellation Architecture
+Thought System is  where:
+communication is controlled
+The thinking begins.
+Thought activity is monitored.
+Contemplation, consideration, and self-awareness/self-consciousness takes place.
+External Communication Network: Sensory and information input coming from outside the system.
+Internal Communication Network: transactions among the constellations systems and the Nexus (Thought System).
+All thinking is a function of communication (language) among the systems of the constellation
+16
+
+=== SLIDE 17 ===
+Thinking Autonomous System (TAS)
+An TAS must be able to ôthinkö and to be ôself-aware.ö
+Construction of a TAS is not a trivial matter, it canÆt be done by an individual or even by a small group of computer scientists. A TAS can only be achieved as a large-scale project.
+Must use an architecture model for a system that is able to think and be self-aware.
+Source: The Autonomous System: A Foundational Synthesis of the Sciences of the Mind, by Szabolcs Michael de Gyurky, Mark A. Tarbell, John Wiley & Sons, Oct 8, 2013.
+17
+
+=== SLIDE 18 ===
+Thinking Autonomous System (TAS) Continued
+Architecture of the cognitive functions of an AS.
+Must be in sufficient detail so that an engineering team may start a requirements and design process.
+Difficult: organization of the team and strict adherence to a software management standard.
+Design articulation:
+Acceptable reality: a project is ready for implementation.
+18
+
+=== SLIDE 19 ===
+Architecture
+The object is not a system with subsystems, but a constellation of nearly independent unique systems.
+Functionality that must be supported by the architecture:
+The TAS must be able to think and contemplate. Must receive instructions, learn, be receptive to instructions and orders, and carry them out. Must be able to make rational decisions without human input, and act upon those decisions. Must be able to communicate in the HUMAN LANGUAGE with people and other autonomous systems; and among its own internal systems.
+19
+
+=== SLIDE 20 ===
+Autonomous Systems Constellation Architecture
+Thought System is  where:
+communication is controlled
+The thinking begins.
+Thought activity is monitored.
+Contemplation, consideration, and self-awareness/self-consciousness takes place.
+External Communication Network: Sensory and information input coming from outside the system.
+Internal Communication Network: transactions among the constellations systems and the Nexus (Thought System).
+Internal Communication Network
+The Will System
+The Intellect System
+The Understanding System
+The Decision System
+The Sensory System
+The Presentation System
+The Reason System
+Thought System
+External Sensory Environment
+Ex
+ternal Communication Network
+All thinking is a function of communication (language) among the systems of the constellation
+20
+
+=== SLIDE 21 ===
+Categories of Communications
+Monologue
+: one-way simplex transmission of a given system to another given system.
+Dialogue
+: two-way duplex transmission between two systems.
+Broadcast
+: one-way simplex transmission from a given system to any other system or all systems.
+Conference
+: multiplexed n-to-n communication. This mode is used by the constellation systems to participate in problem solving and consideration of the actions to deal with a problem confronting the constellation as a whole (discussion or debate).
+21
+
+=== SLIDE 22 ===
+Systems Comprising the Constellation
+The Will System
+: It is the executive system and comprises the following.
+Environment Subsystem.
+Mission Subsystem.
+Executive Subsystem.
+Constellation Repair Subsystem.
+Axioms Subsystem (summarizes complicated rules to avoid dangerous mistakes).
+22
+
+=== SLIDE 23 ===
+Systems Comprising the Constellation (
+Cont
+)
+The Reason System
+: It is the conscience of the mind participating as an advisor, without executive powers. Contemplation and reflection about issues important to the constellation. Comprises the following.
+Laws Subsystem (not to be broken).
+Rules Subsystem (guidelines for efficient operation).
+Axioms Subsystem (summarizes complicated rules to avoid dangerous mistakes).
+23
+
+=== SLIDE 24 ===
+Systems Comprising the Constellation (
+Cont
+)
+The Intellect System
+: capacity to acquire and apply knowledge. It comprises the following.
+Abstract Data Subsystem (acquires, processes, and stores all information). Abstract data are validated by experiences.
+The experience Subsystem (stores experiences in a repository).
+Knowledge Subsystem (abstract data that has been validated by experiences).
+A sound decision is made first based on knowledge, then on experience, and rarely on abstract data alone
+Even if the Will System is willing to accept and act upon input from the Reason System (ethical rules, laws, etc.), if the Intellect System is based on incomplete information (primarily abstract knowledge), the decision will be flawed or wrong.
+24
+
+=== SLIDE 25 ===
+Systems Comprising the Constellation (
+Cont
+)
+The Presentation System
+: it is the theater of the mind (Visualizing what is going on in the Thinking System).
+Its subsystems are: Viewing, Projection, Experience, Analysis, Recall, and Contemplation.
+Important to the survival of the AS:
+It can present  consequences of a decision made by the Will System in real-time.
+It can present courses of action under consideration by the constellation.
+25
+
+=== SLIDE 26 ===
+Systems Comprising the Constellation (
+Cont
+)
+The Understanding System
+: it is where the material for thinking is assembled, compiled, and presented to the constellation for review and consensus.
+Ability to learn.
+Ability to process abstract data, experience data, knowledge by accessing the Intellect System.
+26
+
+=== SLIDE 27 ===
+Systems Comprising the Constellation (
+Cont
+)
+The Sensory System
+: it receives external and internal sensory data.
+Subsystems include: External Sensory, Internal Sensory, Propulsion, Motion and Manipulation, Standards and limits, Autonomous System State.
+27
+
+=== SLIDE 28 ===
+Systems Comprising the Constellation (
+Cont
+)
+The Decision System
+: it represents the Operations Officer.
+It assembles all relevant data from the systems of the constellation and prepares a number of prioritized courses of action with the Will System.
+Subsystems include: Arbitration, Value, Decision Processing.
+28
+
+=== SLIDE 29 ===
+Systems Comprising the Constellation (
+Cont
+)
+The Thought System
+: Is described as the internal communications of the autonomous system, showing the architecture of how the autonomous system will work once development starts.
+The communication-related subsystems include the Fault Monitoring Subsystem, the Command and Demand
+Subsytem
+, and the Communications Subsystem.
+Fault management, resource management, mission management, and communications management are core functions of an autonomous system.
+29
+
+=== SLIDE 30 ===
+Using the JPL-STD-D-4000 for System Requirements
+ôWe lost the great Space Shuttle Challenger ultimately because the launch manager made an a priori decision to ignore the judgment of the systems expert. An autonomous system will not make these kinds of decisions because it will be rational and intelligent by design.ö
+JPL-STD-D-4000 is the JPL standard to build large spacecraft ground systems (comprising telemetry, command, and communications systems).
+NASA Technical Standards:
+https://standards.nasa.gov/NASA-Technical-Standards
+30
+
+=== SLIDE 31 ===
+Architecture of the Will System
+It is the dominant system, the maker of executive decisions.
+It assures the survival of the Autonomous System and achievement of the mission objectives.
+Subsystems include: Survival, Propagation, Dominance, Science Data Conversion, Craving, Search for Truth, Mission, and Repair.
+Search for truth is the beginning of the human thought system.
+ôAn autonomous system cannot be autonomous without the ability to think in a human language and hold internal dialogues, monologues, presentations, discussions, and son on, all of which belong to the process of Logic, pure thought.ö
+31
+
+=== SLIDE 32 ===
+3.11 Philosophical Background
+There are 2 things that need to be addressed to develop an autonomous system:
+Select a language to be used (Structured Natural Language? E.g. G2).
+How to get the system to acquire the full potential of the selected language.
+How to best convey a true and precise meaning of an idea.
+Survival: Bus and Propulsion System.
+32
+
+=== SLIDE 33 ===
+Subsystems of the Will: Survival
+Must have energy for its critical systems.
+Behavior of the will.
+Influenced by motives, reflection, thinking, and contemplation.
+Manifested in the reactions of searching, pursuing, fleeing, and avoiding.
+33
+
+=== SLIDE 34 ===
+Subsystems of the Will: Search for Truth
+Survival is in the form of axiomatic rules, initially this is in the form of a hardwired database (instinct).
+Axiom: a statement or proposition which is regarded as being established, accepted, or self-evidently true.
+"a line can be extended indefinitely," "things equal to the same thing are equal to each other," "if equals are added to equals, the wholes are equal."
+It is a subsystem that relates to how the human thought system evolves.
+In more advanced systems, the axiomatic rules will form a function of a separate database dedicated to more complex rules as to what to do and not to do.
+In humans, axiomatic rules keep expanding due to sheer necessity and form a primitive version of the Reason.
+34
+
+=== SLIDE 35 ===
+Subsystems of the Will: The Mission Subsystem
+Provides the Will a mission to be accomplished.
+Mission example: A Lunar Terrain Vehicle (LTV) off-loads cargo from a Human Landing System (HLS) and takes it to the In-Situ Resource Utilization (ISRU) Plant.
+Other examples?
+35
+
+=== SLIDE 36 ===
+Subsystems of the Will: The Repair Subsystem
+Provides the Will with the ability to monitor the state of the systems and the constellation as a whole.
+Health of internal and external sensors.
+Operational parameters of all system components.
+Provides the Will with the ability to repair anomalies.
+Software and hardware repairs.
+36
+
+=== SLIDE 37 ===
+The Architecture of the Reason System
+The role of the Reason is that of the ôConscienceö of the autonomous system.
+It ensures that the Will does not make decisions that violate rules of operations while executing to achieve mission objectives.
+It is the system where the axioms, rules, and laws are located and processed.
+A law or rule is independent of experience.
+The Reason is the voice of caution or prudence.
+The Reason System is more closely coupled to the Intellect System than any other system of the autonomous system.
+37
+
+=== SLIDE 38 ===
+The External Interfaces of the Reason
+The decision to give each system of the constellation the ability to receive, process, or transmit sensory data, is primarily for  having redundancy for sensory perception and thinking.
+ôWhen an a priori understanding enters the consciousness as a pure concept that is not based on empirical information or from physical viewing and other sensory input, but from thinking and understanding, it is an elementary concept that is our own. This, in human beings, is a transcendental operation.ö
+38
+
+=== SLIDE 39 ===
+Subsystems of the Reason: Axioms
+It contains knowledge upon which  survival will depend.
+The axioms subsystem databases are accepted as universally true.
+It is simultaneously  a subsystem, a database, and a process.
+39
+
+=== SLIDE 40 ===
+Subsystems of the Reason: Rules
+ôThe rules subsystem governs an authoritatively directed set of principles containing standards and procedures not only pertaining to conduct in a group, but also to the steps taken to solve mechanical and scientific problems.ö
+Are changeable, based on experience, gained by practice.
+Keep straight the direction of work or movement.
+40
+
+=== SLIDE 41 ===
+Subsystems of the Reason: Laws
+The laws govern behavior among the members of the constellation (the systems of the constellation), in the measure in which they may have autonomy themselves.
+The laws govern behavior among multiple autonomous systems interacting with each other.
+41
+
+=== SLIDE 42 ===
+Subsystems of the Reason: Phenomenon
+Receives data from internal and external senses.
+It is the objective reality.
+Humans acquire data as size, shape, motion, color, odor, mass, and temperature in time and space.
+The Reason System receives, sorts, compiles, and processes this empirical data, using only that which is applicable to itself in the Phenomenon Subsystem.
+Processed data is placed in the raw database, where it is picked up by the
+Noumenon
+.
+42
+
+=== SLIDE 43 ===
+Subsystems of the Reason:
+Noumenon
+Takes the data from the Phenomenon, compiles, and translates into the human language of the constellation.
+Then the
+Noumenon
+prepares the language for interface with the rest of the Thought System and the other systems.
+There is one
+Noumenon
+subsystem in each of the systems of the constellation.
+Enables communication among systems.
+Noumena: Thought Fragments.
+The Reason System provides input to the Thought System in the form of ôthought fragments.ö They are incomplete until the Nexus
+Cogitationis
+has compiled the entire thought.
+43
+
+=== SLIDE 44 ===
+Subsystems of the Reason:
+Noumenon
+Noumena: Thought Fragments.
+The Reason System provides input to the Thought System in the form of ôthought fragments.ö They are incomplete until the Nexus
+Cogitationis
+has compiled the entire thought.
+Thought fragments are the basis for a priori concepts and are not based on objective truth or empirical data (pipe sections, flow paths, etc.).
+Thought fragments the Reason provides to the Thought System and the Nexus
+cogitationis
+are what contemplation and transcendental thinking are composed of.
+44
+
+=== SLIDE 45 ===
+The Intellect System
+The role of the Intellect System is that of the ôlibrarianö of the autonomous system.
+The primary function is to create knowledge from abstract data and experience data.
+The architecture of the Intellect System is composed of the following subsystems:
+Noumenon
+, Phenomenon, Abstract, Experience, Knowledge.
+What does it mean to make an ôintelligentö decision or conclusion?
+45
+
+=== SLIDE 46 ===
+Subsystems of The Intellect System: Abstract Subsystem
+Records, files, and processes for use all information acquired from secondary sources.
+46
+
+=== SLIDE 47 ===
+Subsystems of The Intellect System: Experience Subsystem
+Stores, files, and processes the knowledge acquired through physical experience.
+Where the abstract information will not do much for the survival of a species, knowledge based on experience is sufficient for survival.
+47
+
+=== SLIDE 48 ===
+Subsystems of The Intellect System: Knowledge Subsystem
+Processes the abstract information and knowledge gained through experience into real and practical knowledge.
+It processes (evaluates, categorizes, prioritizes, integrates, synthesizes, and stores) the data and applies them in the sum of knowledge needed by the autonomous system to perform its mission accurately and efficiently.
+48
+
+=== SLIDE 49 ===
+External Interfaces of The Intellect System
+Phenomenon and
+Noumenon
+networks.
+Sensory system provides data from external sensors.
+The
+Noumenon
+network operates in the human language selected for internal thinking and communication among systems of the constellation.
+Systems of the constellation engage in monologues, dialogues, and conferences regarding their databases, the validity of their sensory information, and putting substance to the objects under consideration.
+49
+
+=== SLIDE 50 ===
+The Presentation System
+Every member of the constellation architecture must present its outputs through the language of the constellation.
+The language of the constellation includes all forms of presentation, including text embodying semantics according to a defined ontology, graphics, tables, images, etc.
+50
+
+=== SLIDE 51 ===
+The Understanding System
+Produces understanding as a product, apart from knowledge.
+3 major subsystems:
+The Form of All Appearances.
+The Form of All Possibilities.
+The Understanding Preparation.
+It is the synthesis of the product of all appearances and all possibilities.
+It also includes the Phenomenon and
+Noumenon
+subsystems, through which it receives and sends data.
+51
+
+=== SLIDE 52 ===
+The Understanding System
+Understanding means that one reflects on a situation, a thing, an event, or condition, and considers all of the possibilities the thing represents, beneficial or harmful, desirable or undesirable, which can result from a decision made by the mind, which is the constellation collectively.
+52
+
+=== SLIDE 53 ===
+Understanding: The Form of All Possibilities Subsystem
+Logical Functions of the Understanding
+The Quantity of the Decision/
+Veredict
+: (1) general decisions, (2) particular decisions, (3) singular or individual decisions.
+Quality: (1) agreement, (2) disagreement, (3) endless.
+Relations (linkage of parts or wholes): (1) categorical, (2) hypothetical, (3) disjunctive.
+Modality: (1) problematic, (2) assertive, (3) apodictic (clearly established or beyond dispute).
+53
+
+=== SLIDE 54 ===
+Understanding: The Understanding Preparation Subsystem
+Assembles and processes the form of all appearances and integrates these data with the form of all possibilities.
+54
+
+=== SLIDE 55 ===
+Architecture of the Sensory System
+The goal is environmental awareness, both active and passive.
+Its primary functional attribute is to monitor all internal states, as well as the environment external to the autonomous system.
+It is the repository of all mechanical and software systemsÆ standards and limits, with the purpose of ensuring the health of the autonomous system.
+Subsystems: (1) Autonomous System State Subsystem, (2) Propulsion, (3) Motion, (4) Manipulation, and (5) Standards and Limits.
+The Sensory system is responsible for the acquisition, processing, linking, coupling, formatting, and delivery of all environmental data to the constellation of the mind of the autonomous system (all the cognitive functions of the autonomous system).
+55
+
+=== SLIDE 56 ===
+Subsystems of the Sensory System
+Phenomenon subsystem; the lesser subsystems are the
+Noumenon
+subsystem, the Propulsion, Motion, and Manipulation subsystem, the Standards and Limits subsystem, and the Autonomous System State subsystem.
+56
+
+=== SLIDE 57 ===
+Subsystems of the Sensory System:
+Phenomenom
+Subsystem
+Program set for the external sensory system may include.
+Size detection and the continuation of the moment of discretion
+Mass detection and its unending and unlimited quantum (quality and mathematics), including the physical and ôspiritualö quanta (matter without mass), as in Hegel's
+Phõnomenologie
+des
+Geistes
+.
+Form detection in all presentations Motion detection: Newton's thoughts on motion and acceleration in time and space.
+Photonic detection: frequency, energy, quantity, color distribution, and temperature.
+Radioactivity detection.
+Charged particle detection.
+Plasma detection.
+57
+
+=== SLIDE 58 ===
+Subsystems of the Sensory System:
+Phenomenom
+Subsystem
+Program set for the internal sensory system may include.
+Joint Operation.
+Standards and Limits.
+Parts: Mechanical, Electrical, Optical Motorized.
+Temperatures.
+Radiation Exposure Levels.
+Wear, Fitness, and Age.
+Energy: Systemic Voltage Levels, Systemic Storage Levels.
+Sources: Solar Radiation, Radio Thermal Generator, Gasses for Ion Propulsion, Solar Sails, and so on.
+Systemic Requirements.
+58
+
+=== SLIDE 59 ===
+Subsystems of the Sensory System:
+Noumenom
+Subsystem
+The Internal Sensory projects its acquired sensory data through the
+Noumenon
+as a composite object to the Presentation system and tags it with a simple question: What is this ?
+The question is then responded to by the Reason system, the Will system, the Understanding system, the Decision system, and the Intellect system.
+Each system independently processes the external sensory information it receives from the Phenomenon.
+When the Sensory system projects its thought fragment onto the Presentation, the other systems view it and add their own fragments of data.
+59
+
+=== SLIDE 60 ===
+The Architecture of the Decision System
+It uninterruptedly assembles information in need of immediate decision and action.
+It has a list of priorities for selecting courses of action based on
+survival
+and the
+accomplishment of the mission objectives
+.
+Subsystems: Value subsystem, Decision Processing subsystem, and the Arbitration subsystem.
+60
+
+=== SLIDE 61 ===
+Understanding the Decision Process
+A ôcorrectö decision means that the decision has the correct construction of relationships among the systems of the mind on a perception presented for consideration.
+A correct conclusion followed by a correct decision simply on the understanding of an object is the ômark of Genius.ö
+The subsystems of the Decision system are:
+The Value subsystem.
+The Decision Processing subsystem.
+The Arbitration subsystem.
+61
+
+=== SLIDE 62 ===
+Decision Process: Value Subsystem
+Value Categories
+Preferences.
+Usefulness.
+Values: a set of principles, standards, and qualities deemed worthwhile and desirable for general applications.
+Happiness.
+Freedom.
+Aesthetics.
+62
+
+=== SLIDE 63 ===
+The Decision Process
+In the rational human being, the decision process
+begins with the formation of a concept
+. The object of the concept enters the ôwells of experience.ö There are many such repositories, databases, or wells.
+For the purpose of this functional design, we shall call these the wells of knowledge , the substance of which resides in the Intellect system.
+This is where an object viewed as either a fragment or in its entirety is materially enhanced from the individual's wells of knowledge to assure that the decision made is based on substance, not desire.
+63
+
+=== SLIDE 64 ===
+Decision Process: Decision Processing Subsystem
+The decision process bases its operation on the recognition requiring an action
+. This action is not sequential, nor is it hierarchical: it is a constant and dynamic process that covers the development of databases necessary for making a decision.
+The Decision system should be taken as a single, large, complex process resulting in either an
+a priori
+or
+a posteriori
+decision.
+64
+
+=== SLIDE 65 ===
+Decision Process: Arbitration Subsystem
+The Arbitration subsystem is the primary interface and umpire for the Understanding, Reason, and Intellect systems in its role of generating axioms, rules, and laws.
+65
+
+=== SLIDE 66 ===
+The Architecture of the Thought System
+The role of the Thought system is to enable the autonomous system to be self-aware and self-conscious.
+This is the system that enables contemplation, analysis, internal dialogue, monologue, conferencing, broadcasting, and multifaceted discussions of issues of importance to any and all of the systems of the autonomous system.
+The Internetùand if/when it will attain ôconsciousness,ö ôself-awareness,ö ôsentience,ö or some other form of transcendent behavior as more and more systems, nodes, and ôsmartö devices are added to it.
+the Internet has the wrong architecture for autonomy. It is only with the infusion of the mental (conscious) involvement of human beings that the Internet can take on an outward impression of con¡sciousness.
+66
+
+=== SLIDE 67 ===
+Thinking Process
+The basic laws of thinking are recognition, connection, conclusion, and verdict.
+The Thought system has three subsystems: The Nexus
+Cogitationis
+subsystem, The Communication subsystem, The Network subsystem.
+These three subsystems belong to the sphere of the
+Noumenon
+.
+The primary external interface of the Thought system with the Phenomenon is through the Communication subsystem, and then through the Sensory subsystem, which provides physical impressions from the environment.
+In the autonomous system, the Logic program set is designed from the start so that the autonomous system will be a logical thinker.
+67
+
+=== SLIDE 68 ===
+Thinking Process: Nexus
+Cogitationis
+Subsystem
+"Nexus
+cogitationis
+" is a Latin phrase that translates to "connection of thought," essentially meaning the point where different ideas or thoughts come together to form a coherent concept or understanding; it refers to the central link or relationship between various mental processes involved in thinking or reasoning.
+The entire logical structure of the language as used to think internally and communicate externally should reside in the Nexus.
+When the autonomous system communicates and manifests action, it should be in the form of an advanced, human language.
+The Contemplation program set is the equivalent mental activity of the entire mind of the constellation without external sensory input.
+68
+
+=== SLIDE 69 ===
+Thinking Process: The Communication Subsystem
+We must select and provide to the autonomous system a very advanced and highly developed language in which to think internally and communicate externally.
+69
+
+=== SLIDE 70 ===
+Thinking Process: The Network Subsystem
+The Network subsystem for design purposes is the information network of the systems of the constellation.
+The information in this case is
+exchanged in human language
+,
+because we humans think in language.
+Communication modes include:
+Monologue: designed for the Nexus
+Cogitationis
+to address each system separately to update its organization and functions. It also serves as a mode for any system to address another directly with information required by the target system.
+Broadcast: to inform all the systems in the constellation to take note of an event in process that is important for the entire constellation.
+Dialogue: used in situations in which the Decision system is in the process of establishing a preference or making a ruling or a verdict on an object, event, or process.
+Conference: is a direct engagement undertaken prior to a decision, judgment, verdict, or preference concerning an object, event, or phenomenon. The Conference is often due not to Sensory input but to a mental process while the thinking takes place.
+70
+
+=== SLIDE 71 ===
+Initialization Process of the Autonomous System
+The initialization process or genesis of the autonomous system is critical because it forms the baseline of self-awareness.
+When the cognitive functions have been programmed, tested, and integrated, one can see that the Nexus
+Cogitationis
+is akin to what we used to call ôsituation monitoring.ö
+The autonomous system is instantiated by 9 steps called ômoments.ö
+71
+
+=== SLIDE 72 ===
+Initialization Process of the Autonomous System
+Before the First Moment.
+State : Pure Nothing
+Result : Intention of Becoming
+Description : Pure Nothing is the starting and the end point of all things in the cognitive world. There is no object without a subject, and no existence without the environment, the Phenomenon.
+The Becoming
+State : Initialization
+Result : Intention of initialization is instantiated
+Description : This is the Becoming , the ôzeroth moment,ö the ôdesire to initialize selfö process of the autonomous system constellation.
+72
+
+=== SLIDE 73 ===
+Initialization Process of the Autonomous System
+First Moment.
+State : Determinate Nothing (concept of ôIö emerges)
+Result : The Nexus
+Cogitationis
+is instantiated
+Description : The Nexus
+Cogitationis
+(unto itself, the subject ) brings itself into being and is in a suspended state. Until the Communication system is instantiated in the Eighth Moment, the Nexus will communicate with the nascent systems as each comes online through the bands of the
+Noumena
+.
+73
+
+=== SLIDE 74 ===
+Initialization Process of the Autonomous System
+Second Moment.
+State : Something (concept of self emerges)
+Result : The Will system is instantiated
+Description : The Will system, which is a totally physical, survival-oriented system, exerts itself and notifies the Nexus
+Cogitationis
+in a monologue mode that it is present. The Nexus
+Cogitationis
+replies, also in a monologue modeÆ that it has recognized the Will system, and the Will system is registered with the Individual Survival subsystem, the Survival of the Species subsystem, and the Dominance subsystem.
+74
+
+=== SLIDE 75 ===
+Initialization Process of the Autonomous System
+Third Moment.
+State : Something Else (concept of
+nonself
+emerges)
+Result : The Sensory system is instantiated
+Description : The Sensory system addresses the Nexus
+Cogitationis
+in a monologue mode, providing the first burst of sensory data from the nearest (or most immediate) object in the Phenomenon. The Nexus
+Cogitationis
+replies that it recognizes the Sensory system and that it is registered with the Internal Sensory program sets: the Sensory Data Processing program set, the External Sensory Data program set (the Phenomenon: external data input), the Sensory Data Records program set, and the Experiment Data Records program set.
+75
+
+=== SLIDE 76 ===
+Initialization Process of the Autonomous System
+Fourth Moment.
+State : Something More
+Result : The Reason system is instantiated
+Description : The Reason system addresses the Nexus
+Cogitationis
+in a dialogue mode. It describes its readiness for receiving its subsystems' definitions and data inputs. The Nexus
+Cogitationis
+replies that it recognizes the Reason system and that it is registered with the Laws subsystem, the Rules subsystem, and the Axioms subsystem. It is also linked instantly in a dialogue mode with the Will system for emergency input and response, as in the case of survival events.
+76
+
+=== SLIDE 77 ===
+Initialization Process of the Autonomous System
+Fifth Moment.
+State : Something More
+Result : The Intellect system is instantiated
+Description : The Nexus
+Cogitationis
+addresses the Intellect system in a dialogue mode. It queries the Intellect system as to its readiness to receive the download of data required by the Intellect to generate knowledge. It requests a read-back of the status of its Abstract subsystem, its Experience subsystem, and its Knowledge subsystem. This process initializes the relationship of the Intellect with the other systems of the constellation.
+77
+
+=== SLIDE 78 ===
+Initialization Process of the Autonomous System
+Sixth Moment.
+State : Something More
+Result : The Understanding system is instantiated
+Description : The Nexus
+Cogitationis
+addresses the Understanding system in a dialogue mode. It queries the Understanding system as to its readiness to receive the downloading of the data it needs to perform its function. This includes the data formats and information fragments large and small to populate its Form of All Appearances and Form of All Possibilities subsystems. In the process of forming an Idea or Concept, this system draws on the instantiated systems of the constellation in a broadcast mode for the data it needs to complete the data sets required in formulating its possibilities.
+78
+
+=== SLIDE 79 ===
+Initialization Process of the Autonomous System
+Seventh Moment.
+State : Awareness starts
+Result : The Presentation system is instantiated
+Description : The Nexus
+Cogitationis
+addresses the Presentation system in a broadcast mode. It queries the Presentation system as to its readiness to accept the download of the input from the instantiated systems in the constellation, and of compiling and arranging the fragments or parts of visual, audio, graphical, mass, motion, and other data into a single object for analysis. This whole or partially complete object is updated instantly by the constellation simultaneously.
+79
+
+=== SLIDE 80 ===
+Initialization Process of the Autonomous System
+Eighth Moment.
+State : Awareness continues to develop
+Result : The Communication subsystem is instantiated
+Description : The Nexus
+Cogitationis
+addresses in a monologue mode the Communication subsystem of the Thought system. It queries the Communication subsystem as to its readiness to convert sensory and contemplative data into mathematical equations, into human language, and all other forms and methods and parts of communication. It is also asked to validate the language it has been given for use, its grammatical rules, syllogisms, and syntax. When this has been accomplished, the Communication subsystem will address the constellation in a broadcast mode and provide each system with the selected human language to be used in thinking internally and communicating externally.
+Syllogism: an instance of a form of reasoning in which a conclusion is drawn (whether validly or not) from two given or assumed propositions (premises), each of which shares a term with the conclusion, and shares a common or middle term not present in the conclusion (e.g., all dogs are animals; all animals have four legs; therefore all dogs have four legs ).
+80
+
+=== SLIDE 81 ===
+Initialization Process of the Autonomous System
+Nineth
+Moment.
+State : Being (awareness is established)
+Result : The Decision system is instantiated
+Description : The Nexus
+Cogitationis
+addresses the Decision system in a monologue mode as to its readiness to evaluate and select preferences, likes and dislikes, and its ability to make decisions based on all input received from Sensory External data, and from input received from the other systems in the constellation.
+81
+
+=== SLIDE 82 ===
+Phrases
+A hardwire system cannot think, contemplate, communicate, evaluate, learn, design, plan, execute, or make decisions, because it cannot perform the fluid, self-reflective dynamic logic that is required for an autonomous system.
+A hardwired ôautonomousö system is a contradiction in terms.
+development of
+concepts
+that are needed
+to identify and think about objects
+perceived or seen in nature and presented through the Phenomenon.
+The process of generating an Idea is considered the most important and unique attribute of the mind of a human being
+. It is the one that separates it from the purely biological animals, and as such is the first prime mover of the thought process.
+82
+
+=== SLIDE 83 ===
+Phrases (Continued)
+The Concept (
+Begriff
+) is the other prime mover of the thought process. It is a processor and a mental design object in time and space. It is generated by the initial stimulation of the Idea, and indeed it is for our design purposes an extension of the Idea and often remains a mental image object.
+In human beings, this may happen only if the mind of the thinker is equipped with the Intellect, Understanding, and Decision necessary to complete the substantiation process.
+For our purposes, the Idea can originate in any of the Will, Reason, or Understanding systems, but it is up to the Nexus
+Cogitationis
+to develop it into a Concept.
+83
+
+=== SLIDE 84 ===
+Epilogue
+Thinkingù pure thinking ùis considered a system of concepts.
+Logic is in turn the science of pure thinking.
+Thus, in the design of the autonomous system, we can originate concepts from the Reason, the Intellect, and even the Presentation.
+84
+
+=== SLIDE 85 ===
+CMU Robotics Institute Report
+The preponderance of systems in this survey were
+directly
+, albeit remotely, controlled.
+These technologies, such as model-based systems, expert systems, neural networks serve as the basis for much of Artificial Intelligence and autonomous control. On the other hand, component technologies, such as architectures, real-time control, fault-tolerant systems, and scheduling are specific aspects of autonomous systems or operations.
+That is, instead of modeling all the data simultaneously, predictions are based on local models fitted to the data in the neighborhood of a query point.
+85
+
+=== SLIDE 86 ===
+CMU Robotics Institute Report (2)
+a publish-subscribe style can make it easier for components to react to changes in other parts of the system, and can lessen the need to replicate certain aspects of the internal state.
+In an asynchronous publish-subscribe style, less internal state is needed, which means that there are typically fewer things that can be out of sync. On the other hand, a synchronous approach to communication can be more predictable.
+86
+
+=== SLIDE 87 ===
+Projects of Interest from NASA
+TechEdSat
+TechEdSat5 (ARC)
+Intel Edison 500 MHz dual-core Atom, 100 MHz Quark MCU, 4GB Flash, 1GB RAM.
+Space
+Comm
+using IRIDIUM ($30/month).
+https://www.nasa.gov/centers/ames/engineering/techedsat
+https://techport.nasa.gov/projects/94884
+(NPAS-NASA Platform for Autonomous Systems).
+87

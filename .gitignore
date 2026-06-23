@@ -1,0 +1,36 @@
+# Environment & secrets
+.env
+.env.*
+env.services
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data (runtime generated)
+data/
+data/chromadb/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test artifacts
+test_*.log
